@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{DC9E09EA-7EFE-4EE4-9AA6-F6F4B9B9B1D7}|TheConqueror.vcxproj|D:\\LearnGameCode\\TheConqueror\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DC9E09EA-7EFE-4EE4-9AA6-F6F4B9B9B1D7}|TheConqueror.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AppData\\Local\\Temp\\e4f6c230-4fc6-4d29-a8fd-d953c3f917ba_01_hello_SDL.zip.7ba\\01_hello_SDL\\01_hello_SDL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,8 +16,22 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 52,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 280,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +43,24 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "01_hello_SDL.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\AppData\\Local\\Temp\\e4f6c230-4fc6-4d29-a8fd-d953c3f917ba_01_hello_SDL.zip.7ba\\01_hello_SDL\\01_hello_SDL.cpp",
+              "ToolTip": "C:\\Users\\PC\\AppData\\Local\\Temp\\e4f6c230-4fc6-4d29-a8fd-d953c3f917ba_01_hello_SDL.zip.7ba\\01_hello_SDL\\01_hello_SDL.cpp [Read Only]",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-07T17:51:49.121Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\LearnGameCode\\TheConqueror\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\LearnGameCode\\TheConqueror\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-06T07:02:12.43Z",
               "EditorCaption": ""
