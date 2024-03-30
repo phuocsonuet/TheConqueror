@@ -1,51 +1,67 @@
 #include <iostream>
-#include <SDL.h>
+#include <SDL_image.h>
+#include <SDL_mixer.h>
 
 using namespace std;
 
-const int screen_width = 640;
-const int screen_height = 480;
+bool initializeSDL();
+void cleanupSDL();
+int displayMenu();
+int displayInstruction();
+int exitGame();
+int startGame();
 
-SDL_Window* gWindow = nullptr;
-SDL_Surface* gScreenSurface = nullptr;
+Game* gameInstance;
+MainScreen* mainScreenInstance;
+Instruct* instructionInstance;
 
-bool init() {
-	if (SDL_Init(SDL_INIT_VIDEO) < 0) {
-		cout << "Error: \n" << SDL_GetError;
-		return false;
-	}
-	gWindow = SDL_CreateWindow("The Conqueror game", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, screen_width, screen_height, SDL_WINDOW_SHOWN);
-	if (gWindow == nullptr) {
-		cout << "Error: \n" << SDL_GetError;
-		return false;
-	}
-	gScreenSurface = SDL_GetWindowSurface(gWindow);
-	SDL_FillRect(gScreenSurface, nullptr, SDL_MapRGB(gScreenSurface->format, 0xFF, 0xFF, 0xFF));
-	SDL_UpdateWindowSurface(gWindow);
-	return true;
+void LoadData() {
 }
 
-void close() {
-	SDL_DestroyWindow(gWindow);
-	gWindow = nullptr;
-	SDL_Quit();
+enum MenuOption {
+	PLAY,
+	INSTRUCTION,
+	EXIT_GAME,
+	DISPLAY_MENU
+};
+
+int main(int argc, char* argv[]) {
+	initializeSDL();
+
+	int menuOption = DISPLAY_MENU;
+	while (menuOption != EXIT_GAME) {
+		gameInstance = new Game();
+		switch (menuOption) {
+			case DISPLAY_MENU:
+				menuOption = displayMenu();
+				break;
+			case INSTRUCTION:
+				menuOption = displayInstructions();
+				break;
+			case EXIT_GAME:
+				menuOption = exitGame();
+				break;
+			case PLAY:
+				menuOption = startGame();
+				break;
+			default:
+				break;
+		}
+		gameInstance->cleanUp();
+		delete gameInstance;
+	}
+	cleanupSDL();
+	return 0;
 }
 
-int main(int argc, char* args[]) {
-	if (!init()) {
-		cout << "Failed";
+bool initializeSDL() {
+	if (SDL_Init(SDL_INIT_EVERYTHING) < 0) {
+		cerr << "Failed to initialize SDL. Error: " << SDL.GetError() << endl;
+		return false;
 	}
 	else {
-		SDL_Event e;
-		bool quit = false;
-		while (!quit) {
-			while (SDL_PollEvent((&e))) {
-				if (e.type == SDL_QUIT) {
-					quit = true;
-				}
-			}
-		}
+
 	}
-	close();
-	return 0;
+	LoadData();
+	return true;
 }
