@@ -38,8 +38,6 @@ OS X (brew):
     $ mingw32-make -f MakeFile
     $ ./main.exe
 
-The compiled .exe is located in root folder. For it to run, you must copy the root folder all .dll files, ./lib folder all .a files, ./include/sdl all .h files as well as from your SDL installation to its directory.
-
 You can download code all files config here: 
 
 How to play
