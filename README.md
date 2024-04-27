@@ -9,8 +9,8 @@
  <strong> Student ID </strong>: 23020145
 </p>
 
-**Game Demo**: [https://youtu.be/9rKi5hqLJvY] (https://youtu.be/9rKi5hqLJvY)
-![bsp_img] (https://imgur.com/76RRXQM)
+**Game Demo**: https://www.youtube.com/watch?v=9rKi5hqLJvY
+
 ## Introduction
 This is my first simple game made in C++. I hope you enjoy with it. 
 This is also my project for Advance Programing Subject.  
@@ -43,7 +43,7 @@ How to play
 Very easy, press Enter button to build "your Conqueror"
 
 # Game Demo
-You can see it on Youtube: [https://youtu.be/9rKi5hqLJvY] (https://youtu.be/9rKi5hqLJvY)
+You can see it on Youtube: https://youtu.be/9rKi5hqLJvY
 
 # Sources for Artwork
 Artwork is all drawn by me using the helps of Paint on Windows.
