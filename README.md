@@ -1,6 +1,6 @@
 # The Conqueror - A small game made with C++ and SDL2.
 <p align="center">
-    <strong> The Conqueror. </strong>
+    <strong> The Conqueror </strong>
 </p>
 <p align="center">
  <strong>Author</strong>: Tran Dinh Phuoc Son
@@ -9,7 +9,8 @@
  <strong> Student ID </strong>: 23020145
 </p>
 
-**Game Demo**: 
+**Game Demo**: [https://youtu.be/9rKi5hqLJvY] (https://youtu.be/9rKi5hqLJvY)
+![bsp_img] (https://imgur.com/76RRXQM)
 ## Introduction
 This is my first simple game made in C++. I hope you enjoy with it. 
 This is also my project for Advance Programing Subject.  
@@ -38,13 +39,11 @@ OS X (brew):
     $ mingw32-make -f MakeFile
     $ ./main.exe
 
-You can download code all files config here: 
-
 How to play
 Very easy, press Enter button to build "your Conqueror"
 
 # Game Demo
-You can see it on Youtube: 
+You can see it on Youtube: [https://youtu.be/9rKi5hqLJvY] (https://youtu.be/9rKi5hqLJvY)
 
 # Sources for Artwork
 Artwork is all drawn by me using the helps of Paint on Windows.
