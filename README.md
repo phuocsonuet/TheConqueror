@@ -39,8 +39,7 @@ OS X (brew):
     $ mingw32-make -f MakeFile
     $ ./main.exe
 
-How to play
-Very easy, press Enter button to build "your Conqueror"
+How to play: Very easy, press Enter button to build "your Conqueror"
 
 # Game Demo
 You can see it on Youtube: https://youtu.be/9rKi5hqLJvY
